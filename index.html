@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuj Chetry - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="toggleTheme">🌙 Toggle Dark Mode</button>
+
+  <header class="fade-in">
+    <h1>Anuj Chetry</h1>
+    <p>Email: <a href="mailto:anujchetry2020@gmail.com">anujchetry2020@gmail.com</a> | Phone: +91-7630068986</p>
+    <div class="social-links">
+      <a href="https://github.com/Anuj23456" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/anuj-chetry" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="fade-up">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech (ECE)</strong>, NIT Arunachal Pradesh (2022–2026) - CGPA: 6.97</li>
+        <li>Class XII, CBSE, 64.4% (2022)</li>
+        <li>Class X, CBSE, 84.6% (2020)</li>
+      </ul>
+    </section>
+
+    <section class="fade-up">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Machine Learning Intern - NIT Arunachal Pradesh</h3>
+        <p>June 2024 – March 2025</p>
+        <ul>
+          <li>Built ML model to classify tribal attire (98% accuracy).</li>
+          <li>Integrated with Flask for real-time predictions.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Full Stack Intern - A.N.D Intern, Bengaluru</h3>
+        <p>Jul 2024 – Sep 2024</p>
+        <ul>
+          <li>Developed responsive Weather App using HTML, CSS, JS.</li>
+          <li>Used OpenWeatherMap API for real-time data.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="fade-up">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Traditional Attire Recognition</h3>
+        <p>NIT Arunachal Pradesh | Jun 2024 – Mar 2025</p>
+        <ul>
+          <li>Built image-based classifier using SVM (98% accuracy).</li>
+          <li>Deployed with Flask for live predictions.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Water Contamination Detection</h3>
+        <p>IIT Guwahati | Dec 2024 – Jan 2025</p>
+        <ul>
+          <li>Classified contamination from water images using ML.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="fade-up">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Languages: Python, SQL, HTML/CSS</li>
+        <li>Libraries: Numpy, Pandas, Matplotlib</li>
+        <li>Tools: GitHub, VS Code, Jupyter Notebook</li>
+        <li>OS: Windows</li>
+      </ul>
+    </section>
+
+    <section class="fade-up">
+      <h2>Achievements</h2>
+      <ul>
+        <li>7th rank in Namsai district (Guru Dronacharya Scholarship, 2019)</li>
+        <li>1st in Essay Competition, Chowkham Circle (2021)</li>
+        <li>Cleared JEE Mains (2022)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Anuj Chetry. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('toggleTheme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
